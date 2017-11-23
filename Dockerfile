@@ -11,7 +11,7 @@ COPY . /app
 
 EXPOSE 4200/tcp
 
-CMD ["npm", "start", "--", "--host", "0.0.0.0", "--poll", "500"]
+CMD ["npm", "start"]
 
 
 # ng new docker-demo --skip-install
